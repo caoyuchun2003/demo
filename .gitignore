@@ -1,0 +1,45 @@
+# Workspace-specific
+Library/
+
+# OS files
+.DS_Store
+
+# Node / JS / TS
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.turbo/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+**/venv/
+**/*.pyc
+
+# PHP / Laravel
+**/vendor/
+**/storage/*.key
+**/storage/logs/*.log
+**/bootstrap/cache/*.php
+
+# Java / JVM / Go / Rust generic outputs
+**/target/
+**/bin/
+**/out/
+
+# Environment and local secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDE
+.idea/
+.vscode/
